@@ -28,7 +28,11 @@ function Footer() {
           </div>
         </div>
         <div className="footer-bottom">
-          <p>© 2024 Finance Calculator India. All rights reserved.</p>
+          <p>© 2025 Finance Calculator India. All rights reserved.</p>
+          <div style={{ marginTop: '10px' }}>
+            <a href="/privacy-policy" style={{ color: '#94a3b8', marginRight: '20px' }}>Privacy Policy</a>
+            <a href="/terms" style={{ color: '#94a3b8' }}>Terms of Service</a>
+          </div>
         </div>
       </div>
     </footer>

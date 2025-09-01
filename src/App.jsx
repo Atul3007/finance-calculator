@@ -6,6 +6,8 @@ import SIPCalculator from './components/calculators/SIPCalculator';
 import TaxCalculator from './components/calculators/TaxCalculator';
 import FDCalculator from './components/calculators/FDCalculator';
 import PPFCalculator from './components/calculators/PPFCalculator';
+import PrivacyPolicy from './components/pages/PrivacyPolicy';
+import Terms from './components/pages/Terms';
 import Navbar from './components/layout/PremiumNavbar';
 import Footer from './components/layout/Footer';
 import { TopBannerAd, LeftSidebarAd, RightSidebarAd, MobileFloatingAd, InContentAd } from './components/ads/AdComponents';
@@ -39,6 +41,8 @@ function App() {
             <Route path="/tax-calculator" element={<TaxCalculator />} />
             <Route path="/fd-calculator" element={<FDCalculator />} />
             <Route path="/ppf-calculator" element={<PPFCalculator />} />
+            <Route path="/privacy-policy" element={<PrivacyPolicy />} />
+            <Route path="/terms" element={<Terms />} />
           </Routes>
           
           {/* In-Content Ad after main content */}
